@@ -136,17 +136,17 @@ const socials = [
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
+    text: "Youtube",
+    icon: "/icons/youtube.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://www.youtube.com/@nashanuwar/",
   },
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
+    text: "Pinterest",
+    icon: "/icons/pinterest.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://pin.it/4wRCVltQs",
   },
   {
     id: 4,
