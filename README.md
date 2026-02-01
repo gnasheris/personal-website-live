@@ -2,6 +2,8 @@
 
 This repo is my personal portfolio website. 
 
+Use it here: [here] (https://www.nanuwar.me/)
+
 This was built with React, GSAP and Tailwind CSS. 
 
 The website features a custom Dock, Draggable Windows and smooth animations. 
