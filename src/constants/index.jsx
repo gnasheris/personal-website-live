@@ -362,7 +362,7 @@ const WORK_LOCATION = {
       name: "Web Dev & QA Tester - TERRAIN",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "bottom-5 left-80",
+      position: "bottom-3y left-80",
       windowPosition: "top-[53vh] left-5",
       children: [
         {
