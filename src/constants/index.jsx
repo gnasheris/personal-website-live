@@ -273,7 +273,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-50 right-80",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[20vh] left-5",
       children: [
         {
           id: 1,
@@ -283,8 +283,10 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 right-80",
           description: [
-            "",
-            "",
+            "Tech Consulting Intern @ EY ⭐",
+            "Interned on a large-scale 🏗️ migration project for a core banking system. 🏦",
+            "I worked closely with the data team to support validating and tracking critical business and transactional data. 📊",
+            "I did my final project on researching data migration validation best practices. 🎯",
           ],
         },
         {
@@ -302,15 +304,15 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "President - Women in Technology",
       icon: "/images/folder.png",
       kind: "folder",
       position: "bottom-5 left-80",
-      windowPosition: "top-[37vh] left-7",
+      windowPosition: "top-[37vh] left-5",
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Role-Description.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -348,6 +350,50 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 right-20",
+        },
+      ],
+    },
+
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Web Dev & QA Tester - TERRAIN",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "bottom-5 left-80",
+      windowPosition: "top-[53vh] left-5",
+      children: [
+        {
+          id: 1,
+          name: "Role-Description.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Web Dev & QA Tester for TERRAIN 🌏🌳",
+            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
+            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
+            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+          ],
+        },
+        {
+          id: 2,
+          name: "terrain-store.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://shop.terrain.earth/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "terrain.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/terrain-store.png",
         },
       ],
     },
