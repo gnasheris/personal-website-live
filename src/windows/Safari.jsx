@@ -44,9 +44,7 @@ const Safari = () => {
 
             {/*Everything Below is Outside of the Header*/}
             <div className="blog">
-                <h2>My Developer Blog</h2>
-
-
+                <h2>Coming Soon!</h2>
                 <div className="space-y-8">
                     {blogPosts.map(({ id, image, title, date, link }) => (
                         <div key={id} className="blog-post">
