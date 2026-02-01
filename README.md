@@ -2,7 +2,7 @@
 
 This repo is my personal portfolio website. 
 
-Use it here: [here] (https://www.nanuwar.me/)
+Use it here: https://www.nanuwar.me/
 
 This was built with React, GSAP and Tailwind CSS. 
 
