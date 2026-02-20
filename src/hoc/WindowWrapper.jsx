@@ -16,13 +16,10 @@ const WindowWrapper = (Component, windowKey) => {
             if (!el || !isOpen) return;
             el.style.display = "block";
 
-            gsap.fromTo(
-                el, { scale: 0.98, opacity: 0 },
-                { scale: 1, opacity: 1, duration: 0.25, ease: "power3.out" },
+            gsap.fromTo(el, { scale: 0.8, opacity: 0, y: 40 },
+                { scale: 1, opacity: 1, y: 0, duration: 0.4, ease: "power3.out" },
             );
-        },
-            { dependencies: [isOpen] }
-        );
+        }, [isOpen]);
 
         useGSAP(() => {
             const el = ref.current;
